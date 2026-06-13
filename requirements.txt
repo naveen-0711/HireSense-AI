@@ -1,0 +1,17 @@
+streamlit
+fastapi
+uvicorn
+supabase
+python-dotenv
+google-generativeai
+sentence-transformers
+chromadb
+pymupdf
+pdfplumber
+plotly
+pandas
+numpy
+scikit-learn
+passlib
+python-jose
+requests

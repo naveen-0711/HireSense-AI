@@ -1,0 +1,16 @@
+venv/
+.env
+
+__pycache__/
+*.pyc
+
+chromadb_store/
+
+.streamlit/
+
+*.sqlite3
+
+.idea/
+.vscode/
+
+uploads/
