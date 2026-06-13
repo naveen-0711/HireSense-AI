@@ -1,24 +1,11 @@
-HireSense AI
+# HireSense AI
 
-AI-Powered Recruitment Intelligence Platform
+AI-powered recruitment intelligence platform.
 
-Features:
-- AI Resume Parsing
-- ATS Match Scoring
-- Semantic Candidate Search
-- Duplicate Resume Detection
-- Bulk Resume Upload
-- ZIP Resume Processing
-- Recruiter Insights
-- Candidate Ranking (Upcoming)
+## Features
 
-Tech Stack:
-- Python
-- Streamlit
-- Gemini API
-- ChromaDB
-- Supabase
-- Sentence Transformers
-
-Status:
-Active Development
+- Resume Analyzer
+- ATS Analyzer
+- Semantic Search
+- Recruiter Chatbot
+- Analytics Dashboard
