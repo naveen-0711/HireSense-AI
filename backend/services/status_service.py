@@ -2,11 +2,28 @@ from backend.utils.supabase_client import (
     supabase
 )
 
-def save_candidate_status(data):
+from backend.auth.user_context import (
+    get_current_user
+)
 
-    return (
+
+def save_candidate_status(
+    data
+):
+
+    data["uploaded_by"] = (
+        get_current_user()
+    )
+
+    response = (
         supabase
-        .table("candidate_status")
-        .insert(data)
+        .table(
+            "candidate_status"
+        )
+        .insert(
+            data
+        )
         .execute()
     )
+
+    return response

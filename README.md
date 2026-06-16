@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HireSense AI
 
 AI-powered recruitment intelligence platform.
@@ -9,3 +10,6 @@ AI-powered recruitment intelligence platform.
 - Semantic Search
 - Recruiter Chatbot
 - Analytics Dashboard
+=======
+# HireSense-AI_Resume_analyzer
+>>>>>>> 32efe0db7ce6e2ebeebf0a0e73185161ff0d0784

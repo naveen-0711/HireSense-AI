@@ -1,4 +1,14 @@
+
+
+
 import streamlit as st
+
+if "user_email" not in st.session_state:
+
+    st.session_state["user_email"] = (
+        "partha@test.com"
+    )
+
 
 st.set_page_config(
     page_title="HireSense AI",
